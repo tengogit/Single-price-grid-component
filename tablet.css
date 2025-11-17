@@ -1,0 +1,40 @@
+@media (width>768px) {
+    body {
+        width: 100vw;
+        padding: 162px 66px 162px 66px;
+
+    }
+
+    .cont {
+        width: 635px;
+        height: 475px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+
+    }
+
+    header {
+        width: 635px;
+        height: 216px;
+        padding: 40px;
+        grid-area: 1/1/2/3;
+    }
+
+    main,
+    footer {
+        width: 317px;
+        height: 259px;
+        padding: 40px;
+    }
+
+    main {
+        width: 318px;
+        border-radius: 0 0 0 10px;
+    }
+
+    footer {
+        border-radius: 0 0 10px 0px;
+
+    }
+}

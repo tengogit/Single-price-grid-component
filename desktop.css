@@ -1,0 +1,22 @@
+@media(width>1440px) {
+    body {
+        justify-content: center;
+
+    }
+
+    .active {
+        pointer-events: all;
+    }
+
+    button:hover {
+        cursor: pointer;
+        background: local;
+    }
+
+    button:hover p {
+        color: green;
+        font-size: 30px;
+        transition: 0.5s;
+    }
+
+}
